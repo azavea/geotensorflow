@@ -5,5 +5,5 @@ libraryDependencies ++= Seq(
   "org.locationtech.geotrellis" %% "geotrellis-s3"         % Version.geotrellis,
   "org.apache.spark" %% "spark-core"    % Version.spark,
   "org.apache.hadoop" % "hadoop-client" % Version.hadoop,
-  "org.scalatest"    %% "scalatest"     % Version.scalaTest % "test",
+  "org.scalatest"    %% "scalatest"     % Version.scalaTest % "test"
 )
