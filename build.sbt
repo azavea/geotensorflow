@@ -41,7 +41,7 @@ lazy val commonSettings = Seq(
 
 lazy val root =
   Project("root", file("."))
-    .aggregate(predict, predict-test)
+    .aggregate(predict, `predict-test`)
     .settings(commonSettings: _*)
 
 lazy val predict =
