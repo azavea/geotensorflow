@@ -1,6 +1,6 @@
 lazy val commonSettings = Seq(
   organization := "com.azavea",
-  version := "0.1.0-SNAPHOST",
+  version := Version.geotrellis,
   scalaVersion := "2.11.8",
   scalacOptions ++= Seq(
     "-deprecation",
