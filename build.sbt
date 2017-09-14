@@ -27,8 +27,6 @@ lazy val commonSettings = Seq(
   ivyScala := ivyScala.value map { _.copy(overrideScalaVersion = true) },
   resolvers ++=
     Seq(
-      "geosolutions" at "http://maven.geo-solutions.it/",
-      "osgeo" at "http://download.osgeo.org/webdav/geotools/",
       "LocationTech GeoTrellis Snapshots" at "https://repo.locationtech.org/content/repositories/geotrellis-snapshots"
     ),
   assemblyMergeStrategy in assembly := {
